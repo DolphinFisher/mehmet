@@ -231,7 +231,7 @@ body {
   }
 
   #envelope {
-    transform: scale(1.7);
+    transform: scale(1);
     transform-origin: center;
     top: 0;
   }
