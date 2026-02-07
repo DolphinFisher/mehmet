@@ -233,7 +233,7 @@ body {
   #envelope {
     width: 220px;
     height: 140px;
-    transform: scale(0.95);
+    transform: scale(1.4);
     transform-origin: center;
     top: 0;
   }
