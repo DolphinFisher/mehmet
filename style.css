@@ -231,9 +231,25 @@ body {
   }
 
   #envelope {
-    transform: scale(1);
+    width: 220px;
+    height: 140px;
+    transform: scale(0.95);
     transform-origin: center;
     top: 0;
+  }
+
+  .flap {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 64px solid transparent;
+    border-top: 76px solid #d9534f;
+  }
+
+  .pocket {
+    border-left: 110px solid #f5a3a2;
+    border-right: 110px solid #f5a3a2;
+    border-bottom: 70px solid #ff6f61;
+    border-top: 70px solid transparent;
   }
 
   .envlope-wrapper {
@@ -245,8 +261,8 @@ body {
   }
 
   .letter-content {
-    font-size: 1.05rem;
-    line-height: 1.5;
+    font-size: 0.95rem;
+    line-height: 1.45;
   }
 }
 
